@@ -1,0 +1,35 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "author": "Yeeun Song<dorothi1002@naver.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeeunsongg/wetube-reloaded.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yeeunsongg/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/yeeunsongg/wetube-reloaded#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "nodemon": "^2.0.16"
+  }
+}
